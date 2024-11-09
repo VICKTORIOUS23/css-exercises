@@ -1,0 +1,92 @@
+.header {
+    background-color:#1F2937;
+    display:flex;
+    justify-content:space-between;
+    width:1024px;
+}
+
+.headerbg {
+    max-width:100%;
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    
+}
+
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+}
+
+.headerlinks {
+    font-size:18px;
+    color:#E5E7EB;
+    list-style:none;
+    padding-left:0px;
+    display:flex;
+    justify-content:space-between;
+    gap:24px;
+}
+
+.logo, .headerlinks, .bannertitle, .bannerdesc {font-family:'Roboto', sans-serif;}
+
+body {
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.bannerbody {
+    background-color:#1F2937;
+    display:flex;
+    justify-content:space-between;
+    width:1024px;
+    
+}
+
+.bannerbg {
+    display:flex;
+    justify-content:center;
+    max-width:100%;
+    background-color:#1F2937;
+    height: 300px;
+    text-align:center;
+}
+
+.bannertitle {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+.bannerdesc {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.bannerleftgrp {
+    text-align:left;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width:450px;
+}
+
+.signup {
+    width:90px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight:bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
